@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/DataEntryProject/static/css/main.5d9e6e41.css",
+    "main.js": "/DataEntryProject/static/js/main.c681c945.js",
+    "static/js/787.c5e19ecc.chunk.js": "/DataEntryProject/static/js/787.c5e19ecc.chunk.js",
+    "index.html": "/DataEntryProject/index.html",
+    "main.5d9e6e41.css.map": "/DataEntryProject/static/css/main.5d9e6e41.css.map",
+    "main.c681c945.js.map": "/DataEntryProject/static/js/main.c681c945.js.map",
+    "787.c5e19ecc.chunk.js.map": "/DataEntryProject/static/js/787.c5e19ecc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d9e6e41.css",
+    "static/js/main.c681c945.js"
+  ]
+}
