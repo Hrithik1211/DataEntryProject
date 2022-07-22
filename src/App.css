@@ -1,38 +1,85 @@
-.App {
+.add-new-button{
+  padding: 12px 24px;
+  font-size: 14px;
+  color: #ffffff;
+  position: fixed;
+  width: fit-content;
+  background-color: rebeccapurple;
+  border: none;
+  margin: 4px;
+  right: 4px;
+}
+.heading{
   text-align: center;
+  font-weight: bold;
+  padding: 12px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form-modal{
+  position: absolute;
+  /* height: 80%; */
+  max-height: 80%;
+  overflow: auto;
+  background-color: pink;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  padding: 48px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.modal-close-button{
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  cursor: pointer;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form-input{
+  padding: 12px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  align-items: center;
+}
+.form-input-button{
+  padding: 12px 24px;
+  border: none;
+  background-color: royalblue;
+  margin-top: 12px;
+}
+.form{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.display-board{
+  margin-top: 56px;
+}
+.row-details{
+  padding: 12px 24px;
+  margin: 4px;
+  font-size: 14px;
+  font-weight: 600;
 }
 
-.App-link {
-  color: #61dafb;
+.display-board-card-title{
+  font-weight: 700;
+  cursor: pointer;
 }
+.display-card{
+  background-color: honeydew;
+  margin: 4px;
+  padding: 4px;
+}
+.display-board-spinner{
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  margin-top: 54px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+::-webkit-scrollbar{
+  display: none;
 }
